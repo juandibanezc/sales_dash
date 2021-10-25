@@ -25,7 +25,7 @@ item_application_options = [{'label': str(ITEM_APPLICATION[item_app]), 'value': 
                   for item_app in ITEM_APPLICATION]
 
 # Load data
-df = pd.read_pickle('cleanCustomerData.pkl')
+df = pd.read_pickle('Data_Preprocessing/cleanCustomerData.pkl')
 daterange = pd.date_range(start='2020',end='2022',freq='D')[:-1]
 
 # Create global chart template
